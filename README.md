@@ -2,11 +2,26 @@
 
 Veritabanı arayüzü ve PL/pgSQL çalışmaları içeren ders/proje reposu.
 
-## Öne Çıkanlar
+## Bu Repo Ne İçin Var?
+Veritabanı tasarımı, PL/pgSQL ve uygulama arayüzü entegrasyonunu çalışmak için oluşturuldu.
+
+Bu README'nin amacı; repoya ilk kez gelen birinin projenin neden açıldığını, içinde ne bulunduğunu ve nereden başlaması gerektiğini hızlıca anlamasını sağlamaktır.
+
+## İçerik ve Kapsam
+Bu repoda öne çıkan içerikler şunlardır:
 - PostgreSQL/PLpgSQL odağı
 - .NET arayüz projesi
 - Veritabanı tasarımı ve uygulama entegrasyonu pratiği
-- Kullanılan ana teknolojiler: PLpgSQL, .NET, C#, PostgreSQL / SQL
+- .NET solution/proje dosyaları ve katmanlı uygulama yapısı
+
+## Kimler İçin Faydalı?
+Tam yığın uygulama mimarisini, modül ayrımını veya servis-UI ilişkisini incelemek isteyenler için uygundur.
+
+## Kullanılan Teknolojiler
+- PLpgSQL
+- .NET
+- C#
+- PostgreSQL / SQL
 
 ## Kurulum
 ```bash
@@ -25,7 +40,6 @@ dotnet build "veriTabaniArayuzu/dataBaseOdev.sln"
 ## Proje Yapısı
 - `veriTabaniArayuzu` - 12 dosya
 - `DatabaseRapor.pdf` - 1 dosya
-- `README.md` - 1 dosya
 - `dataBaseProjectG231210009.pdf` - 1 dosya
 - `dataBasediagrami.png` - 1 dosya
 - `veritabani_dump.sql` - 1 dosya
